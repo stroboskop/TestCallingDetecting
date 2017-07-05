@@ -10,9 +10,13 @@ import android.support.annotation.Nullable;
  */
 
 public class RSSPullService extends Service {
+    String adw = "test";
+
     protected  void  onHandleIntent(Intent workIntent){
         String dataString = workIntent.getDataString();
     }
+
+    //comment test?
 
     @Nullable
     @Override
